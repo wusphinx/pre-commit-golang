@@ -1,0 +1,15 @@
+- id: goconst
+  name: goconst
+  files: \.go$
+  entry: goconst.sh
+  language: script
+  description: "Find repeated strings that could be replaced by a constant, `go get -u github.com/jgautheron/goconst/cmd/goconst
+`"
+
+- id: deadcode
+  name: deadcode
+  files: \.go$
+  entry: deadcode.sh
+  language: script
+  description: "Deadcode will tell you any unused code snippets, `go get -u github.com/tsenart/deadcode`
+"
