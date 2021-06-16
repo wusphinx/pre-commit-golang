@@ -1,0 +1,14 @@
+---
+linters:
+  disable-all: true
+  enable:
+    - govet
+    - goimports
+    - bodyclose
+    - gofmt
+    - ineffassign
+run:
+  skip-dirs:
+    - vendor
+    - tests
+  timeout: 1m
